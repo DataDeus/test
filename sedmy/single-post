@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LeadDigital Landing page Template">
+    <title>Sdemy Landing page Template</title>
+
+    <!--External Stylesheets css-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--elegant icon font -->
+    <link rel="stylesheet" href="assets/css/elegant-icons.css">
+    <!--Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+
+
+    <!--Template Stylesheets css-->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <!-- Fonts styles -->
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600" rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <script src="assets/js/modernizr.js"></script>
+
+
+    <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.min.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+    <!-- Page Preloader -->
+
+    <div id="loading-page">
+        <div id="loading-center-page">
+            <div id="loading-center-absolute">
+
+                <div class="loader"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Page Preloader -->
+
+    <!-- Page Content -->
+
+    <div class="warpper clearfix">
+
+
+        <!-- Header -->
+
+        <header class="navbar-header blog-header ">
+
+            <nav class="navbar navbar-expand-lg  fixed-top">
+                <div class="container">
+
+                    <a class="navbar-brand" href="index.html"> <img src="assets/images/logo-icon.svg" alt=""><span>Sedmy</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon  icon_menu"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a data-scroll="" class="nav-link section-scroll" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll="" class="nav-link section-scroll" href="#about">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a data-scroll="" class="nav-link section-scroll" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll="" class="nav-link section-scroll" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll="" class="nav-link section-scroll" href="#pricing">Pricing</a>
+                            </li>
+                            <li>
+                                <a data-scroll="" href="#testimonials" class="nav-link section-scroll">Testimonials</a>
+                            </li>
+                            <li>
+                                <a data-scroll="" href="blog.html" class="nav-link section-scroll">Blog</a>
+                            </li>
+
+                            <li>
+                                <div class="connect-block">
+                                    <a href="" class="btn btn-blue">Get started</a>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+
+
+        </header>
+        <!--Header-->
+
+        <!-- section title  -->
+
+        <div class="section-title  bg-blog-section blog-1">
+
+            <div class="container">
+               <div class="row-centered">
+                <div class="col-centered col-lg-7">
+                 <span class="label red-label">Seo</span>
+
+                 <h2 class="title-h2">Nam libero tempore, cum soluta nobis </h2>
+
+                 <ul class="meta-post">
+                  <li><i class="icon_profile"></i><strong>By Amelia Martin</strong></li>
+                  <li><i class="icon_clock_alt"></i>Jan 01, 2019</li>
+                  <li><i class=" icon_comment_alt"></i><a href="#">0 Comment</a></li>  
+                  <li><i class="icon_ribbon_alt"></i> 323 Views</li>
+              </ul>
+
+
+
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<!-- section title  -->
+
+
+<!-- Blog content -->
+
+<div class="blog-single-post padd-80">
+
+    <!-- container -->
+
+    <div class="container">
+
+        <div class="row">
+
+          <div class="row-centered">
+            <div class="col-centered col-lg-9">
+
+
+
+                <p class="text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                </p>
+
+                <p class="text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+
+
+                <p class="text-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+
+                <blockquote>
+                  <i class="icon_quotations_alt2"></i>  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque </p>
+              </blockquote>
+
+
+              
+              <p class="text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+
+
+              <p class="text-left mg-bt-40">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+
+              <hr>
+
+              <div class=" clearfix meta-info">
+
+                  <div class="tags-meta float-left"> 
+
+                    <ul>
+                        <li><a href="" rel="tag">Strategy</a></li>
+                        <li><a href="" rel="tag">Digital</a></li>
+                        <li><a href="" rel="tag">Audit</a></li>
+                        <li><a href="" rel="tag">Business</a></li>
+                        <li><a href="" rel="tag">Marketing</a></li>
+                    </ul>
+                </div>
+
+
+                <!--share-->
+
+
+                <div class="share-post float-right">
+
+                    <strong>Share:</strong>
+                    <a href=""><i class="social_facebook"></i></a>
+                    <a href=""><i class="social_twitter"></i></a>
+                    <a href=""><i class="social_linkedin"></i></a>
+                    <a href=""><i class="social_pinterest"></i></a>
+                </div>
+
+                <!--share-->
+
+            </div>
+
+ 
+        </div>
+
+
+    </div>
+
+</div>
+<!-- container -->
+</div>
+
+</div>
+
+<!-- related blog posts-->
+
+<div  class=" related-post padd-80 bg-color">
+
+    <div class="container">
+        <div class="row">
+
+            <div class=" col-lg-12 col-12 col-md-12">
+
+                <h2 class="title-h2">Related Post</h2>
+
+
+
+            </div>
+
+
+            <div class="col-md-4 col-lg-4 col-12">
+
+                <div class="blog-item">
+
+                    <div class="top-blog">
+                        <img src="assets/images/avatars/4.jpg" alt="">
+
+                        <div class="top-blog-info">
+
+                            <span>Sophia Thompson</span>
+                            <small>08-01-2019</small>
+
+                        </div>
+
+                    </div>
+
+                    <h3>Duis aute irure dolor in reprehenderit </h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+
+                    <a href="single-post"><i class="arrow_right"></i></a>
+
+
+                </div>  
+
+
+            </div>
+
+
+            <div class="col-md-4 col-lg-4 col-12">
+
+                <div class="blog-item">
+
+                    <div class="top-blog">
+                        <img src="assets/images/avatars/5.jpg" alt="">
+
+                        <div class="top-blog-info">
+
+                            <span>Amelia Martin</span>
+                            <small>08-01-2019</small>
+
+                        </div>
+
+                    </div>
+
+                    <h3>Duis aute irure dolor in reprehenderit </h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+
+                    <a href="single-post"><i class="arrow_right"></i></a>
+
+
+                </div>  
+
+
+            </div>
+
+
+
+
+            <div class="col-md-4 col-lg-4 col-12">
+
+                <div class="blog-item">
+
+                    <div class="top-blog">
+                        <img src="assets/images/avatars/6.jpg" alt="">
+
+                        <div class="top-blog-info">
+
+                            <span>Max Harris</span>
+                            <small>08-01-2019</small>
+
+                        </div>
+
+                    </div>
+
+                    <h3>Duis aute irure dolor in reprehenderit </h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+
+                    <a href="single-post"><i class="arrow_right"></i></a>
+
+
+                </div>  
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-- related blog posts-->
+
+<!-- Comment Reply-->
+<div  class="padd-80 ">
+
+    <div class="container">
+        <div class="row">
+
+<div class="col-md-12 col-12 comments-reply">
+
+       <h3>Leave a reply</h3>
+
+   </div>
+            <div class=" col-md-8">
+ 
+    <form class="form-comment">
+
+        <div class="row form-group">
+
+            <div class="col-lg-6">
+
+                <input type="text" name="field-name" class="form-control" placeholder="Your First Name ">
+
+            </div>
+            <div class="col-lg-6">
+
+                <input type="text" name="field-name" class="form-control" placeholder="Your Last Name ">
+
+            </div>
+
+        </div>
+        <div class="row form-group">
+
+            <div class="col-lg-6">
+
+                <input type="email" name="filed-name" class="form-control" placeholder="Your E-mail">
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <input type="text" name="filed-name" class="form-control" placeholder="website">
+
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <textarea class="form-control" rows="5" cols="3" placeholder="Your message"></textarea>
+
+        </div>
+
+        <div class="from-group">
+
+            <a href="#" class="btn btn-blue"> Comment </a>
+
+        </div>
+
+    </form>
+</div>
+
+
+<div class="col-md-4 col-12">
+
+    <div class="newsletter-block-blog ">
+
+                                            <img src="assets/images/paper-plane.svg" alt="">
+
+                                            <h5>Subscribe to Newsletter</h5>
+
+                                            <!-- Newsletter -->
+
+                                            <div class="subscribe-form ">
+
+                                                <form action="#" method="post" class="subscribe-mail" >
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control email-input" placeholder="Enter your email" name="EMAIL">
+                                                        <input type="submit" class="btn btn-white" value="Subscribe">
+                                                    </div>
+                                                    <p class="error-message"></p>
+                                                    <p class="sucess-message"></p>
+
+                                                </form>
+                                            </div>
+                                        </div>
+
+</div>
+
+        </div>
+    </div>
+</div>
+<!-- Comment Reply-->
+
+
+ <!-- navigation blog-->
+
+            <div class="navigation-blog  bg-color">
+
+
+<div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-12">
+                <a href="#" class="single-nav-blog-prev">
+
+                    <div class="navigation-blog-image">
+
+                        <img src="assets/images/blog/post1-small.jpg" alt="">
+
+
+                    </div>
+
+                    <div class="navigation-blog-label">
+                          <i class="arrow_left"></i>
+                        <span>Et harum quidem rerum ...</span>
+
+
+                    </div>
+
+                </a>
+
+
+                <a href="#" class="single-nav-blog-next">
+
+                    <div class="navigation-blog-image">
+
+                        <img src="assets/images/blog/post2-small.jpg" alt="">
+
+
+                    </div>
+
+                    <div class="navigation-blog-label">
+
+                      
+                        <span>Et harum quidem rerum ...</span>
+                          <i class="arrow_right"></i>
+
+
+                    </div>
+
+                </a>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+            <!-- navigation blog-->
+</div>
+<!--Footer-->
+
+<footer class="footer">
+
+    <div class="footer-warpper">
+
+
+        <!--quote-->
+
+        <section class="padd-40 bg-color-2">
+
+            <div class="container">
+
+                <div class="row">
+
+
+                    <div class="col-md-5 col-lg-5 col-12">
+                        <div class="quote-bloc">
+
+                            <h3>FREE SEO QUOTE </h3>
+                            <p>FROM THE NUMBER ONE AGENCY</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-7 col-lg-7 col-12">
+                        <form class="form-quote">
+
+                            <div class="form-row">
+                                <div class="form-group pd-rg-0 col-md-11 col-lg-11">
+
+                                    <div class="input-icon">
+                                        <span class="icon_globe_alt"></span>
+                                        <input type="email" class="form-control" placeholder="Enter your website">
+
+                                        <button class="btn btn-blue-1">Check Now</button>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="footer-top">
+            <div class="container">
+ 
+                    <div class="footer-bottom-content clearfix">
+
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3">
+
+
+
+                                <div class="logo-footer">
+                                    <a class="navbar-brand" href="index.html"> <img src="assets/images/logo-icon.svg" alt=""><span>Sedmy</span></a>
+
+                                </div>
+                                <div class="text-footer">
+                                    <p>
+                                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                                    </p>
+                                </div>
+
+                                <!-- Newsletter -->
+                                <div class="newsletter-block clearfix">
+
+
+                                    <div class="subscribe-form">
+
+                                        <form action="#" method="get" class="subscribe-mail">
+                                            <div class="form-group ">
+                                                <input type="email" class="form-control email-input" placeholder="Enter your email">
+                                                <button type="submit" class="btn btn-subscribe"><i class="arrow_carrot-right_alt2"></i></button>
+                                            </div>
+                                            <p class="error-message"></p>
+                                            <p class="sucess-message"></p>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Newsletter -->
+
+
+                                <ul class="list-social list-inline">
+                                    <li>
+                                        <a href="#">
+                                            <i class="social_facebook "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="social_twitter "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="social_googleplus "></i>
+                                        </a>
+                                    </li>
+                                  
+
+                                </ul>
+
+
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-3">
+
+                                <h5>Menu</h5>
+
+                                <ul class="list-menu">
+                                    <li>
+                                        <a href="#">Home </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pricing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+
+
+                                </ul>
+
+
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-3">
+
+                                <h5>Useful Link</h5>
+                                <ul class="list-menu">
+                                    <li>
+                                        <a href="#">How it works </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms of Service</a>
+                                    </li>
+
+
+
+                                    <li>
+                                        <a href="#">Privacy policy</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">General Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Faq</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Patners</a>
+                                    </li>
+
+                                    </ul>
+
+
+                                </div>
+
+                                <div class="col-lg-3 col-md-3">
+
+                                    <h5>Contact Info</h5>
+                                    <ul class="list-menu contact-list">
+                                        <li>
+                                            71 Amsteroum Avenue Sedney, NY 10243
+                                        </li>
+                                        <li>
+                                            conact@contact.com
+                                        </li>
+
+                                        <li>+369 258 147 258 </li>
+
+                                    </ul>
+
+
+                                </div>
+ 
+                            </div>
+                        </div>
+ 
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <!-- COPYRIGHT TEXT -->
+
+                            <div class="copyright text-center">
+                                <p>2019 © Copyright Design_GrapahMA All rights Reserved.</p>
+                            </div>
+                            <!-- COPYRIGHT TEXT -->
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!--Footer -->
+
+
+    <!-- jQuery -->
+
+    <script src="assets/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Bootstrap Plugins -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Template Plugins -->
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/wow.min.js "></script>
+    <script src="assets/js/magnific-popup.min.js "></script>
+    <script src="assets/js/jquery.scrollUp.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+  
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

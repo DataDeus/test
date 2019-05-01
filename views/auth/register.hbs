@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+		<title>{{title}}</title>
+		<meta name="theme-color" content="#3F6EBF" />
+		<meta name="msapplication-navbutton-color" content="#3F6EBF" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#3F6EBF" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+
+		<!-- CSS
+		================================================== -->
+		<link rel="stylesheet" href="/stylesheets/auth/style.min.css" type="text/css">
+
+		<!-- Load google font
+		================================================== -->
+
+		<!-- Load other scripts
+		================================================== -->
+		<script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+		<script type="text/javascript">
+			var _html = document.documentElement,
+				isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+			_html.className = _html.className.replace("no-js","js");
+
+			isTouch ? _html.classList.add("touch") : _html.classList.add("no-touch");
+		</script>
+		<script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body>
+		<!-- start main -->
+		<main role="main">
+			<!-- start section -->
+			<section class="section section--no-pt section--no-pb section--light-bg">
+				<div class="grid grid--container">
+					<div class="authorization authorization--registration">
+						<!-- this is demo, remove div class row and div's class col -->
+						<div class="row">
+							<div class="col col--md-auto">
+								<div class="text--center">
+									<a class="site-logo" href="/">
+										<img class="img-responsive" width="175" height="42" src="/images/site_logo_2.png" alt="demo">
+									</a>
+								</div>
+
+								<form class="authorization__form" method="post" onsubmit="return false" action="#">
+									<h3 class="__title">Sign Up</h3>
+									{{!-- {{ #if message.length > 0 }}
+
+                                <div id="signupalert" style="display:none" class="alert alert-danger">
+                                    <p>Error:</p>
+                                    <span> {{message}}</span>
+                                </div>
+                                  {{/if}} --}}
+                                  {{message}}
+									<div class="input-wrp">
+										<input class="textfield" type="text" required="required" id="RegisterFullname" placeholder="Name" />
+									</div>
+
+									<div class="input-wrp">
+										<input class="textfield" type="email" required="required" id="RegisterEmail" placeholder="Email" />
+									</div>
+
+									<div class="input-wrp">
+										<i class="textfield-ico fontello-eye"></i>
+										<input class="textfield" type="text" required="required" id="account_type" placeholder="Account" />
+									</div>
+
+									<div class="input-wrp">
+										<i class="textfield-ico fontello-eye"></i>
+										<input class="textfield" type="password" required="required" id="RegisterPassword" placeholder="Password" />
+									</div>
+
+									<div class="input-wrp">
+										<i class="textfield-ico fontello-eye"></i>
+										<input class="textfield" type="password" required="required" id="RegisterPassword1" placeholder="Confirm Password" />
+									</div>
+
+									<p>
+										<label class="checkbox">
+											<input name="p1" type="checkbox" value="ok" required />
+											<i class="fontello-check"></i><span>I agree with <a href="#">Terms of Services</a></span>
+										</label>
+
+										<button class="custom-btn custom-btn--medium custom-btn--style-2 wide" type="submit" id="RegisterBtn">Submit</button>
+									</p>
+
+									<p class="text--center"><a href="/auth/login">Sign In</a> if you don’t have an account</p>
+								</form>
+							</div>
+
+							{{!-- <div class="col col--md-auto">
+								<div class="text--center">
+									<a class="site-logo" href="index.html">
+										<img class="img-responsive" width="175" height="42" src="img/site_logo_2.png" alt="demo">
+									</a>
+								</div>
+
+								<form class="authorization__form" action="#">
+									<h3 class="__title">Sign Up</h3>
+
+									<p>
+										We sent the code to your email address. Please, check your inbox or spam folder.
+									</p>
+
+									<div class="input-wrp">
+										<input class="textfield" type="text" value="" placeholder="Enter PIN" />
+									</div>
+
+									<button class="custom-btn custom-btn--medium custom-btn--style-2 wide" type="submit" role="button">Submit</button>
+								</form>
+
+								<br>
+
+							</div> --}}
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end section -->
+		</main>
+		<!-- end main -->
+		<!-- end main -->
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="/javascripts/bundle.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	</body>
+</html>

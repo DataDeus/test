@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--meta tags-->
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Services Listing HTML5 CSS3 template">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, services, listing">
+    <meta name="author" content="Ui-DesignLab">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--end meta tags-->
+
+    <title>OldsMarket Dashboard</title>
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/animate.min.css">
+    <link rel="stylesheet" href="vendor/css/alertify.css">
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/perfect-scrollbar/css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <!--end stylesheets-->
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cairo%7CNosifer%7CPoppins%7CQuicksand:700%7CRaleway%7CTangerine%7CHind+Vadodara" rel="stylesheet">
+    <!--end google fonts-->
+</head>
+<body class="dashboard">
+
+<!--top navigation-->
+<div class="top-nav">
+    <i class="fa fa-bars toggle-dash-menu"></i>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="#" class="show-search"><i class="fa fa-search"></i></a></li>
+        <li class="list-inline-item"><a href="dash-messages.html"><i class="fa fa-envelope"></i><span><em>4</em></span></a></li>
+        <li class="list-inline-item"><a href="dashboard.html"><i class="fa fa-bell"></i><span><em>8</em></span></a></li>
+        <li class="list-inline-item"><a href="dash-profile.html"><i class="fa fa-user"></i></a></li>
+    </ul>
+</div>
+<!--end top navigation-->
+
+<!--side navigation-->
+<div class="dash-side-nav-wrapper" id="dash-side-menu">
+    <div class="dash-side-nav perfect-scroll">
+        <div class="dash-logo">
+            <h5><a href="dashboard.html">OldsMarket</a></h5>
+            <span>Dashboard</span>
+        </div>
+        <div class="user-info">
+            <div class="dash-user-img"><img src="img/user2.jpg" alt=""></div>
+            <div class="dash-user-info">
+                <strong>Murethi Brian  N.</strong>
+                <span>Backend Developer</span>
+            </div>
+            <a href="dash-profile.html" class="dash-edit-user"><i class="fa fa-pencil"></i></a>
+        </div>
+        <ul class="list-unstyled dash-menu">
+            <li><a href="dashboard.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="dash-messages.html"><i class="fa fa-envelope-o"></i><span>Messages</span></a></li>
+            <li><a href="dash-reviews.html"><i class="fa fa-star-o"></i><span>Reviews</span></a></li>
+            <li><a href="dash-sales.html"><i class="fa fa-money"></i><span>Sales</span></a></li>
+            <li><a href="dash-items.html"><i class="fa fa-user"></i><span>Items</span></a></li>
+            <li><a href="dash-addItem.html"><i class="fa fa-plus-circle"></i><span>Add Item</span></a></li>
+            <li><a href="dash-profile.html" class="current"><i class="fa fa-user"></i><span>Profile</span></a></li>
+            <li><a href="dash-accountHistory.html"><i class="fa fa-history"></i><span>Account History</span></a></li>
+            <li><a href="login-register.html"><i class="fa fa-sign-out"></i><span>Sign Out</span></a></li>
+        </ul>
+    </div>
+</div>
+<!--end side navigation-->
+
+<!--search box-->
+<div class="dash-search-box" id="dash-search-box">
+    <div class="d-search-box">
+        <form action="#" method="post">
+            <div class="form-group">
+                <input required list="ui-list" class="form-control" type="search" placeholder="Search">
+            </div>
+            <button class="btn"><i class="fa fa-search"></i></button>
+        </form>
+        <datalist id="ui-list">
+            <option>Monthly sales</option>
+            <option>Salaries</option>
+            <option>Invoice</option>
+            <option>Messages</option>
+            <option>Reviews</option>
+            <option>Active items</option>
+        </datalist>
+    </div>
+</div>
+<!--end search box-->
+
+<!--ux-box-->
+<div id="ux-box" class="ux-box-wrapper">
+    <div class="ux-box">
+        <strong>Change Password</strong>
+        <form action="#">
+            <div class="form-group">
+                <label for="pass1">New Password</label>
+                <input required id="pass1" type="password" class="form-control" value="mystrongpassword">
+            </div>
+            <div class="form-group">
+                <label for="pass2">Confirm New Password</label>
+                <input required id="pass2" type="password" class="form-control" value="mystrongpassword">
+            </div>
+            <div>
+                <a href="#" class="ui-btn ui-btn-danger close-box">Cancel</a>
+                <button type="submit" class="ui-btn ui-btn-info">Save Password</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!--end ux-box-->
+
+<!--content container-->
+<div class="content-wrapper">
+
+<!--user profile-->
+    <form action="#" method="post" class="profile-wrapper">
+        <div class="primary-info">
+            <div class="user-pic">
+                <div class="pic">
+                    <div class="pic-img"><img id="user-photo" src="img/user2.jpg" alt=""></div>
+                    <label title="Choose Image" for="file"><input type="file" id="file" name="img-file" class="img-file"><i class="fa fa-camera"></i></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input class="form-control" type="text" id="fname" placeholder="Brandon">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input class="form-control" type="text" id="lname" placeholder="Zentom">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="change-psd show-box">
+                    <span class="pswd">Change Password</span>
+                    <input class="form-control" disabled type="password" id="password" value="Zentom123565545">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email" placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input class="form-control" type="tel" id="phone" placeholder="+1 686 398689 55">
+            </div>
+            <div class="form-group">
+                <label for="adr">Address</label>
+                <input class="form-control" type="text" id="adr" value="91 - 10100 Miami">
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <input class="form-control" type="text" id="country" value="United States">
+            </div>
+        </div>
+        <div class="secondary-info">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <input class="form-control" type="text" id="gender" placeholder="Male">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="lang">Language</label>
+                        <input class="form-control" type="text" id="lang" placeholder="English">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="tw">Twitter</label>
+                        <input class="form-control" type="url" id="tw" placeholder="www.twitter.com/@username">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="fb">Facebook</label>
+                        <input class="form-control" type="url" id="fb" placeholder="www.facebook.com/username">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="gg">Google+</label>
+                        <input class="form-control" type="url" id="gg" placeholder="www.google.com/username">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                        <label for="ln">Linked In</label>
+                        <input class="form-control" type="url" id="ln" placeholder="www.linkedin.com/username">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="msg">Brief Bio</label>
+                <textarea name="msg" id="msg" rows="5" class="form-control" placeholder="Say a little about you..."></textarea>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-lg-8 col-md-6"></div>
+                <div class="col-lg-4 col-md-6">
+                    <button type="submit" class="ui-btn ui-btn-info">Save <i class="fa fa-save"></i></button>
+                </div>
+            </div>
+        </div>
+    </form>
+<!--end user profile-->
+
+</div>
+<!--end content container-->
+
+<!--page loader-->
+<div class="page-loader">
+    <div class="loader"><img src="img/logo.png" alt=""></div>
+</div>
+<!--end page loader-->
+
+<!--scripts-->
+<script src="vendor/js/jquery-3.2.1.min.js"></script>
+<script src="vendor/js/popper.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="vendor/js/alertify.js"></script>
+<script src="vendor/js/jquery.knob.min.js"></script>
+<!--[if IE]><script type="text/javascript" src="vendor/js/excanvas.js"></script><![endif]-->
+<script src="vendor/js/summernote-bs4.min.js"></script>
+<script src="vendor/js/dropzone.js"></script>
+<script src="vendor/OwlCarousel2-2.2.1/owl.carousel.min.js"></script>
+<script src="vendor/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
+<script src="vendor/js/typed.js"></script>
+<script src="js/app.js"></script>
+<!--end scripts-->
+
+</body>
+</html>

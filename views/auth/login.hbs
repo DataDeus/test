@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+	<head>
+		<title>{{title}}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+
+		<meta name="theme-color" content="#3F6EBF" />
+		<meta name="msapplication-navbutton-color" content="#3F6EBF" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#3F6EBF" />
+
+    	<script src="/javascripts/sweetalert.min.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+
+		<!-- CSS
+		================================================== -->
+		<link rel="stylesheet" href="/stylesheets/auth/style.min.css" type="text/css">
+
+		<!-- Load google font
+		================================================== -->
+
+		<!-- Load other scripts
+		================================================== -->
+		<script type="text/javascript">
+			var _html = document.documentElement,
+				isTouch = (('ontouchstart' in _html) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
+
+			_html.className = _html.className.replace("no-js","js");
+
+			isTouch ? _html.classList.add("touch") : _html.classList.add("no-touch");
+		</script>
+		<script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body id="authBody">
+		<!-- start main -->
+		<main role="main">
+			<!-- start section -->
+			<section class="section section--no-pt section--no-pb section--light-bg">
+				<div class="grid grid--container">
+					<div class="authorization authorization--login">
+						<a class="site-logo" href="/">
+							<img class="img-responsive" width="175" height="42" src="img/site_logo_2.png" alt="demo">
+						</a>
+
+						<form class="authorization__form" action="#" method="post" onsubmit="return false">
+							{{!-- <h3 class="__title">Sign In</h3>
+
+							<div class="input-wrp">
+								<input class="textfield" type="text" id="LoginEmail" placeholder="Email" />
+							</div>
+
+							<div class="input-wrp">
+								<i class="textfield-ico fontello-eye"></i>
+								<input class="textfield" type="password" id="LoginPassword" placeholder="Password" />
+							</div>
+
+							<p>
+								<a href="recovery">I forgot my password</a>
+
+								<button class="custom-btn custom-btn--medium custom-btn--style-2 wide" id="LoginBtn" type="submit" role="button">Submit</button>
+							</p>
+							<p>
+								OR --}}
+								<button class="custom-btn custom-btn--medium custom-btn--style-2 wide" id="hoist_google" type="submit" role="button">Google</button>
+								{{!-- <button class="custom-btn custom-btn--medium custom-btn--style-2 wide" id="hoist_facebook" type="submit" role="button">Facebook</button> --}}
+							</p>
+							{{!-- <p class="text--center"><a href="/auth/signup">Sign Up</a> if you don’t have an account</p> --}}
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- end section -->
+		</main>
+		<!-- end main -->
+
+		<div id="btn-to-top-wrap">
+			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="800"></a>
+		</div>
+
+		<script src="/javascripts/bundle.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	</body>
+</html>

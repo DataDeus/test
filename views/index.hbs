@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html class="ie" lang="zxx">
+<![endif]-->
+<html lang="zxx">
+
+<head>
+    <!-- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <title>{{title}}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Mega  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <script id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/66ced900c7db52022e76d6766/218998059ab57d22d1653a793.js");</script>
+    <link rel="stylesheet" href="/stylesheets/home/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <!--Owl Carousel CSS -->
+    <link rel="stylesheet" href="/stylesheets/home/owl.carousel.min.css">
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="/stylesheets/home/animate.min.css">
+    <!-- magnific popup Css -->
+    <link rel="stylesheet" href="/stylesheets/home/magnific-popup.css">
+    <!-- Theme CSS-->
+    <link rel="stylesheet" href="/stylesheets/home/default.css">
+    <link rel="stylesheet" href="/stylesheets/home/typography.css">
+    <link rel="stylesheet" href="/stylesheets/home/style.css">
+    <link rel="stylesheet" href="/stylesheets/home/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.jpg">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#scroll-menu" data-offset="65">
+    <!-- Preloader -->
+    <div class="preloader-wrap">
+        <div class="preloader-inside">
+            <div class="spinner spinner-1">
+                <img src="/images/home/logo.jpg" alt="responsive img">
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+    <!-- Nav Section -->
+    <header>
+        <!-- Nav Section -->
+        <nav class="navbar navbar-default navbar-fixed-top nav-area nav-area-5" id="scroll-menu">
+            <!-- End Header Top Section -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="/images/home/logo.jpg" alt="responsive img"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="event.html">Event</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        {{#if user}}
+                        <li><a href="/dashboard">{{user}}</a></li>
+                        {{else}}
+                        <li><a href="/auth/login">Login</a></li>
+                        <li><a href="/auth/signup">Signup</a></li>
+                        {{/if}}
+                    </ul>
+                    <div class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        <ul class="social-link">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+    </header>
+    <!-- End Nav Section -->
+    <!-- Hero Section -->
+    <div class="hero-area" id="home">
+        <div id="hero-slider-screen" class="owl-carousel owl-theme hero-slider-inner">
+            <div class="item">
+                <img src="/images/home/banner_1.jpg" alt="responsive img">
+                <div class="hero-caption">
+                    <div class="hero-caption-inner animated bounceInDown" data-wow-delay="0.9s" data-wow-duration="1s">
+                        <h1>Urban Frisson</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/images/home/banner_2.jpg" alt="responsive img">
+                <div class="hero-caption">
+                    <div class="hero-caption-inner">
+                        <h1>Urban Frisson</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Section -->
+    <!-- Service Section -->
+    <div class="service-area inner-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 foo">
+                    <div class="section-title-area">
+                        <h2 class="section-title">Welcome To Our Club</h2>
+                        <div class="section-divider"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="service-item foo">
+                        <img src="/images/home/service_1.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <i class="fa fa-glass"></i>
+                                    <h3 class="service-title">drink bar</h3>
+                                    <p>Lorem ipsum atea dolor amet sectetur adip isicing elit, sed do eiua intan olore
+                                        magna athem offera. atuioUt enim ad minis nostr.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="service-item foo">
+                        <img src="/images/home/service_2.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <i class="fa fa-cutlery"></i>
+                                    <h3 class="service-title">restaurant</h3>
+                                    <p>Lorem ipsum atea dolor amet sectetur adip isicing elit, sed do eiua intan olore
+                                        magna athem offera. atuioUt enim ad minis nostr.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="service-item foo">
+                        <img src="/images/home/service_3.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <i class="fa fa-music"></i>
+                                    <h3 class="service-title">dj’s music</h3>
+                                    <p>Lorem ipsum atea dolor amet sectetur adip isicing elit, sed do eiua intan olore
+                                        magna athem offera. atuioUt enim ad minis nostr.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Service Section -->
+    <!-- About Section -->
+    <div class="about-area inner-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 foo">
+                    <div class="section-title-area-2">
+                        <h2 class="section-title">About Our Club</h2>
+                        <div class="section-divider"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid dunt
+                            ut
+                            labore et dolore ma.Ut enim ad minim veniam, quis nos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="about-vedio">
+                        <div class="play-btn-area">
+                            <div class="about-vedio-btn">
+                                <a class="popup-vimeo" href="https://player.vimeo.com/video/7217833">
+                                    <div class="play-btn"><i class="fa fa-play"></i></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Section -->
+    <!-- Event Section -->
+    <div class="event-area inner-padding">
+        <div class="event-area-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 foo">
+                        <div class="section-title-area-2">
+                            <h2 class="section-title">Upcoming Event</h2>
+                            <div class="section-divider"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid
+                                dunt ut labore et dolore ma.Ut enim ad minim veniam, quis nos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="upcoming foo">
+                            <span class="is-countdown"></span>
+                            <div data-countdown="2017/02/01"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 foo">
+                        <div id="event-slider-screen" class="owl-carousel owl-theme event-slider">
+                            <div class="item">
+                                <div class="event-fee">$300.00</div>
+                                <div class="event-feature">
+                                    <img src="/images/home/event_3.jpg" alt="responsive img">
+                                    <div class="caption">
+                                        <div class="caption-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="event-fee">$300.00</div>
+                                <div class="event-feature">
+                                    <img src="/images/home/event_4.jpg" alt="responsive img">
+                                    <div class="caption">
+                                        <div class="caption-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="event-fee">$300.00</div>
+                                <div class="event-feature">
+                                    <img src="/images/home/event_5.jpg" alt="responsive img">
+                                    <div class="caption">
+                                        <div class="caption-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="event-fee">$300.00</div>
+                                <div class="event-feature">
+                                    <img src="/images/home/event_1.jpg" alt="responsive img">
+                                    <div class="caption">
+                                        <div class="caption-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="event-fee">$300.00</div>
+                                <div class="event-feature">
+                                    <img src="/images/home/event_2.jpg" alt="responsive img">
+                                    <div class="caption">
+                                        <div class="caption-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="event-fee">$300.00</div>
+                                <div class="event-feature">
+                                    <img src="/images/home/event_3.jpg" alt="responsive img">
+                                    <div class="caption">
+                                        <div class="caption-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="event-btn">
+                            <a href="event.html" class="btn btn-default btn-sm-field" role="button">View Moew</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Event Section -->
+    <!-- Gallery Section  -->
+    <div class="gallery-area inner-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 foo">
+                    <div class="section-title-area">
+                        <h2 class="section-title">Night Club Gallery</h2>
+                        <div class="section-divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row foo">
+                <div class="gallery-masonry gallery">
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery_1.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <ul>
+                                        <li><a href="gallery-photos.html"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="/images/gallery_1.jpg"><i class="fa fa-search-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery_2.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <ul>
+                                        <li><a href="gallery-photos.html"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="/images/gallery_2.jpg"><i class="fa fa-search-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery_3.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <ul>
+                                        <li><a href="gallery-photos.html"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="/images/gallery_3.jpg"><i class="fa fa-search-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery_4.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <ul>
+                                        <li><a href="gallery-photos.html"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="/images/gallery_4.jpg"><i class="fa fa-search-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery_5.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <ul>
+                                        <li><a href="gallery-photos.html"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="/images/gallery_5.jpg"><i class="fa fa-search-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/home/gallery_6.jpg" alt="responsive img">
+                        <div class="caption">
+                            <div class="caption-inner">
+                                <div class="caption-content">
+                                    <ul>
+                                        <li><a href="gallery-photos.html"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="/images/gallery_6.jpg"><i class="fa fa-search-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery Section -->
+    <!-- Dj's Profile Section  -->
+    <div class="dj-profile-area inner-padding">
+        <div class="dj-profile-area-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 foo">
+                        <div class="section-title-area">
+                            <h2 class="section-title">Most Popular Dj’s Profile</h2>
+                            <div class="section-divider"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dj-profile">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="tab-item">
+                                <div class="row">
+                                    <div class="col-sm-12 col-sm-6 foo" data-sr='enter'>
+                                        <div data-target="#tab-1" data-toggle="tab" class="profile-item-tab">
+                                            <img src="/images/home/dj_profile_1.jpg" alt="responsive img">
+                                            <div class="caption">
+                                                <div class="caption-inner">
+                                                    <div class="caption-content">
+                                                        <ul class="profile-link">
+                                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-sm-6 foo" data-sr='enter'>
+                                        <div data-target="#tab-2" data-toggle="tab" class="profile-item-tab active">
+                                            <img src="/images/home/dj_profile_2.jpg" alt="responsive img">
+                                            <div class="caption">
+                                                <div class="caption-inner">
+                                                    <div class="caption-content">
+                                                        <ul class="profile-link">
+                                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-sm-6 foo" data-sr='enter'>
+                                        <div data-target="#tab-3" data-toggle="tab" class="profile-item-tab mn">
+                                            <img src="/images/home/dj_profile_3.jpg" alt="responsive img">
+                                            <div class="caption">
+                                                <div class="caption-inner">
+                                                    <div class="caption-content">
+                                                        <ul class="profile-link">
+                                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-sm-6 foo" data-sr='enter'>
+                                        <div data-target="#tab-4" data-toggle="tab" class="profile-item-tab mn">
+                                            <img src="/images/home/dj_profile_4.jpg" alt="responsive img">
+                                            <div class="caption">
+                                                <div class="caption-inner">
+                                                    <div class="caption-content">
+                                                        <ul class="profile-link">
+                                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="profile-tab tab-content foo" data-sr='enter'>
+                                <div class="tab-pane fade in" id="tab-1">
+                                    <h2 class="dj-head">Dj mollik</h2>
+                                    <h3 class="dj-info">dubstep</h3>
+                                    <p>Lorem ipsum dolor sit amet, conec tetur adipi asicing elit, do eiusmod tempor
+                                        enim minim venia am, at quis incidi adunt ut the labore et dolore magnatne
+                                        aliqua. Enim enim , veniam,erlenim ad minim veniam.</p>
+                                    <div class="profile">
+                                        <div class="profile-info">
+                                            <div class="am">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <p>dubeb</p>
+                                            <h3>2002</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/disk.jpg" alt="responsive img">
+                                            <p>latest</p>
+                                            <h3>11.18</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/headphone.jpg" alt="responsive img">
+                                            <p>event</p>
+                                            <h3>1011</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane active fade in" id="tab-2">
+                                    <h2 class="dj-head">anika mollik</h2>
+                                    <h3 class="dj-info">dubstep</h3>
+                                    <p>Lorem ipsum dolor sit amet, conec tetur adipi asicing elit, do eiusmod tempor
+                                        enim minim venia am, at quis incidi adunt ut the labore et dolore magnatne
+                                        aliqua. Enim enim , veniam,erlenim ad minim veniam.</p>
+                                    <div class="profile">
+                                        <div class="profile-info">
+                                            <div class="am">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <p>dubeb</p>
+                                            <h3>2002</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/disk.jpg" alt="responsive img">
+                                            <p>latest</p>
+                                            <h3>12.13</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/headphone.jpg" alt="responsive img">
+                                            <p>event</p>
+                                            <h3>1012</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="tab-3">
+                                    <h2 class="dj-head">Dj Sonica</h2>
+                                    <h3 class="dj-info">dubstep</h3>
+                                    <p>Lorem ipsum dolor sit amet, conec tetur adipi asicing elit, do eiusmod tempor
+                                        enim minim venia am, at quis incidi adunt ut the labore et dolore magnatne
+                                        aliqua. Enim enim , veniam,erlenim ad minim veniam.</p>
+                                    <div class="profile">
+                                        <div class="profile-info">
+                                            <div class="am">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <p>dubeb</p>
+                                            <h3>2002</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/disk.jpg" alt="responsive img">
+                                            <p>latest</p>
+                                            <h3>12.00</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/headphone.jpg" alt="responsive img">
+                                            <p>event</p>
+                                            <h3>1015</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="tab-4">
+                                    <h2 class="dj-head">Dj anika</h2>
+                                    <h3 class="dj-info">dubstep</h3>
+                                    <p>Lorem ipsum dolor sit amet, conec tetur adipi asicing elit, do eiusmod tempor
+                                        enim minim venia am, at quis incidi adunt ut the labore et dolore magnatne
+                                        aliqua. Enim enim , veniam,erlenim ad minim veniam.</p>
+                                    <div class="profile">
+                                        <div class="profile-info">
+                                            <div class="am">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <p>dubeb</p>
+                                            <h3>2002</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/disk.jpg" alt="responsive img">
+                                            <p>latest</p>
+                                            <h3>13.13</h3>
+                                        </div>
+                                        <div class="profile-info">
+                                            <img src="/images/home/headphone.jpg" alt="responsive img">
+                                            <p>event</p>
+                                            <h3>1010</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Dj's Profile Section -->
+    <!-- Blog Section  -->
+    <div class="blog-area inner-padding3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 foo">
+                    <div class="section-title-area">
+                        <h2 class="section-title">Our Recent Blog</h2>
+                        <div class="section-divider"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 foo">
+                    <div class="post-row">
+                        <div class="post-header">
+                            <div class="post-feature">
+                                <img src="/images/home/post_feature_1.jpg" alt="responsive img">
+                            </div>
+                        </div>
+                        <div class="post-body">
+                            <div class="post-caption">
+                                <div class="post-caption-inner">
+                                    <div class="post-caption-content">
+                                        <div class="post-link"><a href="blog-details-sidebar.html" class="btn btn-default link-btn"><i
+                                                    class="fa fa-link"></i></a></div>
+                                        <div class="post-sticker hidden-xs"><i class="fa fa-clock-o"></i>Date : 26 oct
+                                            2016 </div>
+                                        <h2 class="post-heading"><a href="#">The Best Blog Post Dummy Title</a></h2>
+                                        <p>Adipisicing elit, thsed do the an eiusmod tempor incidi dunt the at dipising
+                                            elit ased eius mod tempor incidi dunt ipisi cing elit ased.</p>
+                                        <ul class="post-meta">
+                                            <li><a href="#"><i class="fa fa-user"></i>By A Mollik </a></li>
+                                            <li><a href="#"><i class="fa fa-heart"></i>20 Likes</a></li>
+                                            <li><a href="#"><i class="fa fa-comments-o"></i>02 Comments</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-footer-caption">
+                                <div class="footer-caption-inner">
+                                    <h2 class="post-heading"><a href="#">The Best Blog Post Dummy Title</a></h2>
+                                    <div class="post-sticker"><i class="fa fa-clock-o"></i>Date : 26 oct 2016 </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 foo">
+                    <div class="post-row">
+                        <div class="post-header">
+                            <div class="post-feature">
+                                <img src="/images/home/post_feature_2.jpg" alt="responsive img">
+                            </div>
+                        </div>
+                        <div class="post-body">
+                            <div class="post-caption">
+                                <div class="post-caption-inner">
+                                    <div class="post-caption-content">
+                                        <div class="post-link"><a href="blog-details-sidebar.html" class="btn btn-default link-btn"><i
+                                                    class="fa fa-link"></i></a></div>
+                                        <div class="post-sticker hidden-xs"><i class="fa fa-clock-o"></i>Date : 26 oct
+                                            2016 </div>
+                                        <h2 class="post-heading"><a href="#">The Best Blog Post Dummy Title</a></h2>
+                                        <p>Adipisicing elit, thsed do the an eiusmod tempor incidi dunt the at dipising
+                                            elit ased eius mod tempor incidi dunt ipisi cing elit ased.</p>
+                                        <ul class="post-meta">
+                                            <li><a href="#"><i class="fa fa-user"></i>By A Mollik </a></li>
+                                            <li><a href="#"><i class="fa fa-heart"></i>20 Likes</a></li>
+                                            <li><a href="#"><i class="fa fa-comments-o"></i>02 Comments</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-footer-caption">
+                                <div class="footer-caption-inner">
+                                    <h2 class="post-heading"><a href="#">The Best Blog Post Dummy Title</a></h2>
+                                    <div class="post-sticker"><i class="fa fa-clock-o"></i>Date : 26 oct 2016 </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 foo hidden-sm">
+                    <div class="post-row">
+                        <div class="post-header">
+                            <div class="post-feature">
+                                <img src="/images/home/post_feature_3.jpg" alt="responsive img">
+                            </div>
+                        </div>
+                        <div class="post-body">
+                            <div class="post-caption">
+                                <div class="post-caption-inner">
+                                    <div class="post-caption-content">
+                                        <div class="post-link"><a href="blog-details-sidebar.html" class="btn btn-default link-btn"><i
+                                                    class="fa fa-link"></i></a></div>
+                                        <div class="post-sticker hidden-xs"><i class="fa fa-clock-o"></i>Date : 26 oct
+                                            2016 </div>
+                                        <h2 class="post-heading"><a href="#">The Best Blog Post Dummy Title</a></h2>
+                                        <p>Adipisicing elit, thsed do the an eiusmod tempor incidi dunt the at dipising
+                                            elit ased eius mod tempor incidi dunt ipisi cing elit ased.</p>
+                                        <ul class="post-meta">
+                                            <li><a href="#"><i class="fa fa-user"></i>By A Mollik </a></li>
+                                            <li><a href="#"><i class="fa fa-heart"></i>20 Likes</a></li>
+                                            <li><a href="#"><i class="fa fa-comments-o"></i>02 Comments</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-footer-caption">
+                                <div class="footer-caption-inner">
+                                    <h2 class="post-heading"><a href="#">The Best Blog Post Dummy Title</a></h2>
+                                    <div class="post-sticker"><i class="fa fa-clock-o"></i>Date : 26 oct 2016 </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog Section -->
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-area foo" data-sr='bottom'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="company-logo">
+                            <img class="" src="/images/home/logo.jpg" alt="responsive img">
+                        </div>
+                        <div class="footer-content">
+                            <ul class="address-list">
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    <p>House No 27, Road No 07, East Road, Dhaka, Bangladesh</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <p>+660 256 24857</p>
+                                    <p>+660 256 24857</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-globe"></i>
+                                    <p>Username@gmail.com</p>
+                                    <p>Damo@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h4 class="footer-title">OPENING TIME</h4>
+                        <div class="footer-content">
+                            <div class="opening-time">
+                                <p><strong>Monday-Friday: </strong> <small>8.00 to 18.00</small></p>
+                                <p><strong>Saturday: </strong> <small>9.00 to 18.00</small></p>
+                                <p><strong>Sunday: </strong> <small>10.00 to 16.00</small></p>
+                                <p>Every friday of week dolor sit amet, cons ctetur adipisi cing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h4 class="footer-title">TWITTER FEED</h4>
+                        <div class="footer-content">
+                            <ul class="twitter-list">
+                                <li>
+                                    <p>Lorem ipsum dolor sit am ectet adip isicing elit, sed eiusmod.</p>
+                                    <span class="twitt-time">5 hours Ago</span>
+                                </li>
+                                <li>
+                                    <p>Lorem ipsum dolor sit am ectet adip isicing elit, sed eiusmod.</p>
+                                    <span class="twitt-time">7 hours Ago</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h4 class="footer-title">Newsletters</h4>
+                        <div class="footer-content">
+                            <div class="footer-form">
+                                <p>Lorem ipsum dolor sit amet, cons ectetur adip isicing elit, sed eiusmod.</p>
+                                <form action="#" method="POST">
+                                    <div class="form-group">
+                                        <label for="email2">Email Address...</label>
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Email Address..." class="form-control2" id="email2">
+                                        </div>
+                                    </div>
+                                    <div class="form-btn">
+                                        <button type="submit" class="btn btn-default btn-submit">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Ends Footer Section -->
+    <!-- Copyright Section -->
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <p class="footer-copyright">Copyright © 2019 <a href="#">Urban Frisson.</a> All Right Reserved.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <ul class="footer-social-link">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ends Copyright Section -->
+    <!-- Scripts -->
+    <script src="/javascripts/home/jquery-2.1.1.min.js"></script>
+    <script src="/javascripts/home/bootstrap.min.js"></script>
+    <script src="/javascripts/home/scrollreveal.min.js"></script>
+    <script src="/javascripts/home/jquery.waypoints.min.js"></script>
+    <script src="/javascripts/home/owl.carousel.min.js"></script>
+    <script src='/javascripts/home/countdown.js'></script>
+    <!-- Magnific Popup js -->
+    <script src='js/jquery.magnific-popup.min.js'></script>
+    <!-- Isotope Js -->
+    <script src="/javascripts/home/isotope.pkgd.min.js"></script>
+    <script src="/javascripts/home/isotope_custom.js"></script>
+    <!-- Masonary Js -->
+    <script src="/javascripts/home/masonry.pkgd.min.js"></script>
+    <!-- jquery gridrotator js -->
+    <script src="/javascripts/home/modernizr.custom.26633.js"></script>
+    <script src="/javascripts/home/jquery.gridrotator.js"></script>
+    <script src="/javascripts/home/theme.js"></script>
+</body>
+
+</html>

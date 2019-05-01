@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "urban-frisson",
+  "private_key_id": "5f724afec104d9f26b57982072a93c3e65b1c06d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDTtwigHVNhDpgc\n1QTtRaLIo5qWauO3WhGGb+iZJuBhHViE6YjwFMn5PQFQ8BhIiIV5p0K10K3VPwqP\n9p5G/TbADbsT+b08LD9ENvmF5jd7yjV+7kV3lMyb/Dasc7EyHXwAWcsN2G1hYqtC\n+lXr9bCCqmOxJ8hm0+A5nbYl4h5WUsVoDRIbr7ZNdqtIcwDr8cN8YDKtD+j6T4jC\nASRWloAGIZZwwD1IGoGymzRMV/o6gMn2S6NfHKGN+eGZ+bC3HWc9DauPVx6/FHFw\nGie4rS37bwOJT5uiFaQNOY5ReBgHhA6+4Ak+yvPZCabilM0OA0wc8r1GEgISaxCE\n8reHCEOPAgMBAAECggEAW+EXl7ESYdEdF4ok0LoDSrKhoHyz5Xrrlx3S4kA6aTr8\nkvXsrVBAVO9yNkd0KmpBDsoVS+VLw3tP4KllCCbUz2VGFoWv58DGFhsLj94Ynxri\nu3q5YAuN/nXm3lF5CWg9S8OsOQ5/bZ+N9ovApR3jY9mBWT0MHf/+U9LLXUZz5v7L\nJpb/YZWx7NYBFY01n3ESJAhz0bqGHV/ZnbdGc9PuHZqinVHGpu+pOECdCYVGwtpp\nrrSSSZX89LI5MmTdvejI1qIA/8BPrjWy7TXA+KJ2Fwc4+DLAbGM8aMKiO/phvvGQ\n+AqRWG6/RLnKMvq8arzbjG0wHeYN4hI6G21a6TB8lQKBgQD72FboW4yCSzNb/Hmp\nxX2EwBmqPrXqrcLsEPEYjbjoY6YHQZgt/8j6Bs1ubv1+B+oHnjC6SwHNgPpncTis\n9j+gGlcFDEYEYnNLJd0GRuYwjTHpemLfu+GIdVTMhAYSfIMYDZ/b/P6nzxNvMa6l\n9WHpgI4DZx7LdAh+W1ALMRLkqwKBgQDXNTSz9GDT9IKYlPSU9U/O/Oo1C3f9iOxf\ngdlp0ij9OAo1Z6JBsLerz4VgNPmGSn5qcvGQk1EmCLra5CKBzMmuWi7iOfMO+JE1\nK1rfYhNmvwF3VMdrZezinzl12gXtbTLpHQ8b9jPvuuf0zFR4FRO6/1xvkULvwyFe\n//0ManM0rQKBgALQG8hknWEnLd+tJj67Mfe1nZPFN4rzfeXdGpRHoPUXh9c06Fo7\nLSd9w/Wjz7kEpZyIK8so41BETIezQArOhU9oe+hWhsGtx9PjDGDxkcihCxmsgEY3\ndwFrLhNKtjampWAzZsGyRbXiHjlzuJup7foJsYxgLnvfQ+kFZBN77NYZAoGAYxjq\n9dqYI8G5yUz9+wGjCGtJ5bcsP6EnRyth0+qkWUXO3ZylCJ65VPIwNobuR7pRz+6x\n8aMEgQEQGe9nPGHylMiOQjnxBHnNU7BtHePpjyxxHmP5mCjNFeW/7dbBV/0qrlFl\nPbj3XXKxkPXuB4WdGkSwaed37TPrT/WMroTuG9kCgYBdsFv9zaqmiHNEj2o2NM4H\nKnasw+Yupg3tFCgo90ZMerdQZ8moWp6dRuiVN7rfZBakw9NIDAg1pd51dbBAV50k\nix2PL9/AlrROXaGrjhkPQTEjdqremJR06wgA+iop2VjBhVtThQyrKsz7bppW6gCy\noQR0eyw0ajiOPU1cWWvR7Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3avk5@urban-frisson.iam.gserviceaccount.com",
+  "client_id": "110537146833020845359",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3avk5%40urban-frisson.iam.gserviceaccount.com"
+}
